@@ -7,14 +7,6 @@
     <meta name="description" content="John Joshua C. Mesia Portfolio" />
 
     <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <title>jjMesia Portfolio</title>
   </head>
   <body>
@@ -42,10 +34,12 @@
           I'm Joshua <span>Mesia</span>
         </h2>
         <p>I am into <span class="typing-text"></span></p>
-        <a href="#about" class="btn"
-          ><span>About Me</span>
-          <i class="fas fa-arrow-circle-down"></i>
+        
+        <a href="assets/files/Mesia_Resume.pdf" download class="resume-btn btn"><i class="fa-regular fa-file-lines"></i><span>Resume</span></a>
+        <a href="#contact" class="contact-btn btn"
+          ><span>Contact</span>
         </a>
+
         <div class="socials">
             <ul class="social-icons">
               <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/jigar-sable/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
@@ -56,6 +50,7 @@
               <li><a class="dev" aria-label="Dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li>
             </ul>
           </div>
+
         </div>
       </div>
 
@@ -67,10 +62,132 @@
     </section>
 
     <!-- About -->
-    <!-- Education -->
-    <!-- Projects -->
-    <!-- Contact -->
+    <section class="about" id="about">
+      <div class="row">
+        <div class="image">
+          <img draggable="false" class="tilt" src="/assets/images/profile1.jpg">
+        </div>
+        <div class="content">
+          <h1>
+            I'm John Joshua C. Mesia
+          </h1>
+          <span class="tag">Computer Science Student</span>
+          <p>I am Joshua, a Computer Science Student at Mapua Malayan Colleges Mindanao. I have experience with web development, mobile app development, robotics, and machine learning. I sometimes do game development using Pygame in Python.</p>
+          <p> I am a fast learner and a team player. I am dedicated to improve my knowledge and skills and do my duties to the best of my abilities.</p>
+        </div>
+      </div>
+    </section>
 
+    <!-- Education -->
+    <section class="education" id="education">
+      <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+      
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img draggable="false" src="/assets/images/school.png" alt="">
+          </div>
+          <div class="content">
+            <h3>Mapua Malayan Colleges Mindanao</h3>
+            <p>BS Computer Science</p>
+            <h4>2020 - Present</h4>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img draggable="false" src="/assets/images/school.png" alt="">
+          </div>
+          <div class="content">
+            <h3>Mapua Malayan Colleges Mindanao</h3>
+            <p>Science, Technology, Engineering, Mathematics (STEM)</p>
+            <h4>2018 - 2020</h4>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Projects -->
+    
+    <!-- Contact -->
+    <section class="contact" id="contact">
+  
+      <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+    
+      <div class="container">
+        <div class="content">
+          <div class="image-box">
+            <img draggable="false" src="./assets/images/contact1.png" alt="">
+          </div>
+        <form id="contact-form">
+          
+          <div class="form-group">
+            <div class="field">
+              <input type="text" name="name" placeholder="Name" required>
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="email" placeholder="Email" required>
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="phone" placeholder="Phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="message">
+            <textarea placeholder="Message" name="message" required></textarea>
+            <i class="fas fa-comment-dots"></i>
+            </div>
+            </div>
+          <div class="button-area">
+            <button type="submit">
+              Submit <i class="fa fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+
+      <div class="box-container">
+    
+          <div class="box">
+              <h3>Jigar's Portfolio</h3>
+              <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+          </div>
+    
+          <div class="box">
+              <h3>quick links</h3>
+              <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+              <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+              <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+              <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+              <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+              <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+          </div>
+    
+          <div class="box">
+              <h3>contact info</h3>
+              <p> <i class="fas fa-phone"></i>+91 XXX-XXX-XXXX</p>
+              <p> <i class="fas fa-envelope"></i>jigarsable21@gmail.com</p>
+              <p> <i class="fas fa-map-marked-alt"></i>Pune, India-412206</p>
+              <div class="share">
+    
+                  <a href="https://www.linkedin.com/in/jigar-sable" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                  <a href="https://github.com/jigar-sable" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+                  <a href="mailto:jigarsable21@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+                  <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+                  <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+              </div>
+          </div>
+      </div>
+    
+      <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/jigar-sable"> jigar sable</a></h1>
+    
+    </section>
+
+    
     <!-- Typing JS Codebase -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
@@ -84,5 +201,6 @@
       src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
     ></script> -->
     <script src="/assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/111827c82e.js" crossorigin="anonymous"></script>
   </body>
 </html>
